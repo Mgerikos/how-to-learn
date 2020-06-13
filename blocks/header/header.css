@@ -1,0 +1,29 @@
+@import url(./__main-illustation/header__main-illustation.css);
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__link/header__link.css);
+@import url(./__square_pic/header__square-pic.css);
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
+  background-color: #f2f2f2;
+  justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+  position: relative;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
